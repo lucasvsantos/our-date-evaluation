@@ -12,7 +12,7 @@ A romantic date evaluation page created with love for Camila.
 
 ## 🚀 Live Demo
 
-Visit the live page: `https://[your-username].github.io/[repository-name]`
+Visit the live page: `https://lucasvsantos.github.io/our-date-evaluation`
 
 ## 📱 How to Use
 
