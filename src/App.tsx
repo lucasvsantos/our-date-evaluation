@@ -15,7 +15,7 @@ function App() {
       setIsNameValid(true);
       return true;
     } else if (inputName.trim() !== '') {
-      setNameError('Access denied. Only Camila can evaluate this date! 💕');
+      setNameError('Quem é você?');
       setIsNameValid(false);
       return false;
     } else {
@@ -34,14 +34,14 @@ function App() {
 
   const handleScoreSubmit = (selectedScore: number) => {
     if (!isNameValid) {
-      setNameError('Please enter "Camila" first!');
+      setNameError('Por favor, digite "Camila" primeiro! (Se você for a Camila, claro)');
       return;
     }
 
     setScore(selectedScore);
     
     if (selectedScore >= 1 && selectedScore <= 9) {
-      setScoreError('Invalid score! Try again... 😉');
+      setScoreError('Poxa... Nota inválida, tente novamente. 😉');
       setShowSuccess(false);
     } else if (selectedScore === 10) {
       setScoreError('');
@@ -68,20 +68,20 @@ function App() {
               </h1>
               <Heart className="text-red-500 w-8 h-8 animate-pulse" fill="currentColor" />
             </div>
-            <p className="text-gray-600 text-sm">Rate your romantic experience</p>
+            <p className="text-gray-600 text-sm">Avalie nosso encontro</p>
           </div>
 
           {/* Name Input */}
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-2 flex items-center gap-2">
               <User className="w-4 h-4" />
-              Enter your name
+              Digite seu nome
             </label>
             <input
               type="text"
               value={name}
               onChange={handleNameChange}
-              placeholder="Your name here..."
+              placeholder="Seu nome aqui..."
               className={`w-full px-4 py-3 rounded-xl border-2 transition-all duration-300 focus:outline-none focus:ring-2 ${
                 nameError 
                   ? 'border-red-300 focus:ring-red-200 focus:border-red-400' 
@@ -99,7 +99,7 @@ function App() {
             {isNameValid && !nameError && (
               <div className="mt-2 flex items-center gap-2 text-green-600 text-sm">
                 <CheckCircle className="w-4 h-4" />
-                Welcome, Camila! Ready to evaluate? 💖
+                Oi, Camila! Pronta pra avaliar? 💖
               </div>
             )}
           </div>
@@ -108,7 +108,7 @@ function App() {
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-4 flex items-center gap-2">
               <Star className="w-4 h-4" />
-              How was the date? (1-10)
+              Como foi nosso encontro? Opinião sincera (1-10)
             </label>
             
             <div className="grid grid-cols-5 gap-2 mb-4">
@@ -140,7 +140,7 @@ function App() {
                   onClick={resetEvaluation}
                   className="mt-2 text-sm text-red-500 hover:text-red-700 underline"
                 >
-                  Try again
+                  Tente novamente
                 </button>
               </div>
             )}
@@ -153,13 +153,17 @@ function App() {
                       <Star key={star} className="w-6 h-6 text-yellow-400 fill-current" />
                     ))}
                   </div>
-                  <h3 className="text-lg font-bold text-green-800 mb-2">Perfect Score! 🎉</h3>
+                  <h3 className="text-lg font-bold text-green-800 mb-2">Nota máxima! 🎉</h3>
                   <p className="text-green-700 text-sm">
-                    A perfect 10! This date was absolutely magical! ✨
+                    Um 10 perfeito! Que bom que você amou!✨
+                  </p>
+                  <p className="text-green-700 text-sm">
+                    Pronta para o próximo?
                   </p>
                   <div className="flex justify-center mt-4">
                     <Heart className="w-8 h-8 text-red-500 animate-bounce" fill="currentColor" />
                   </div>
+                  <img src='./michael-scott-wow.gif'></img>
                 </div>
               </div>
             )}
@@ -167,7 +171,7 @@ function App() {
 
           {/* Footer */}
           <div className="text-center text-xs text-gray-500 border-t border-gray-100 pt-4">
-            <p>Made with 💕 for special moments</p>
+            <p>Feito com carinho para um momento especial</p>
           </div>
         </div>
       </div>
