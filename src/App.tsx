@@ -163,7 +163,7 @@ function App() {
                   <div className="flex justify-center mt-4">
                     <Heart className="w-8 h-8 text-red-500 animate-bounce" fill="currentColor" />
                   </div>
-                  <img src='./michael-scott-wow.gif'></img>
+                  <img src='https://i.pinimg.com/originals/cf/e2/c7/cfe2c7660c4f3231c29c31b4dd684c27.gif'></img>
                 </div>
               </div>
             )}
