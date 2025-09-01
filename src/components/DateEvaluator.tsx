@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Heart, Star, AlertCircle, Clock } from 'lucide-react';
 import { DateEvaluation } from '../types';
 
