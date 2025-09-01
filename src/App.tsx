@@ -59,7 +59,10 @@ function App() {
             
             {/* Footer */}
             <div className="text-center text-xs text-gray-500 border-t border-gray-100 pt-4 mt-6">
-              <p>Feito com 💕 para momentos especiais</p>
+              <p>Feito com 💕 para registrar nossos momentos</p>
+              <br></br>
+              <p>De: Lucas</p>
+              <p>Para: Camila</p>
             </div>
           </div>
         </div>
