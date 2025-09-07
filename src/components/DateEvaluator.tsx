@@ -102,9 +102,6 @@ export function DateEvaluator({ currentDate, onScoreUpdate }: DateEvaluatorProps
           <p className="text-amber-700 mb-4">
             Encontro: {currentDate.displayDate}
           </p>
-          <p className="text-amber-600">
-            A avaliação estará disponível a partir de {dayAfterDate.toLocaleDateString('pt-BR')} 💕
-          </p>
           <p className="text-amber-500 text-sm mt-2">
             Aguarde o dia seguinte ao encontro para avaliar! ✨
           </p>

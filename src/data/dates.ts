@@ -11,14 +11,23 @@ export const initialDates: DateEvaluation[] = [
     celebrationGif: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2drNjh5dGg0cTNvemFhZWVobzZ2Nnd3ZWxlN3VyOXc3MDM0aDFxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4HrB1fMRtX6BADf1cY/giphy.gif'
   },
   {
-    id: 'date-3',
+    id: 'date-2',
     date: '2025-09-06',
     displayDate: '06 Set 2025',
-    score: null, // Ainda não avaliado
-    isEvaluated: false,
+    score: 10,
+    isEvaluated: true,
     successMessage: 'Adorei nosso encontro e nossa conversa, ansioso para mais! ❤️',
     celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif'
   },
+  {
+    id: 'date-3',
+    date: 'Pending...',
+    displayDate: 'Aguardando data...',
+    score: null,
+    isEvaluated: false,
+    successMessage: 'Adorei nosso encontro e nossa conversa, ansioso para mais! ❤️',
+    celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif'
+  }
   // Adicionar novos encontros aqui seguindo o mesmo padrão
   // {
   //   id: 'date-4',
