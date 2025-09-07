@@ -16,8 +16,8 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '06 Set 2025',
     score: null, // Ainda não avaliado
     isEvaluated: false,
-    successMessage: 'Que encontro incrível tivemos! ✨',
-    celebrationGif: './michael-scott-wow.gif'
+    successMessage: 'Adorei nosso encontro e nossa conversa, ansioso para mais! ❤️',
+    celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif'
   },
   // Adicionar novos encontros aqui seguindo o mesmo padrão
   // {
