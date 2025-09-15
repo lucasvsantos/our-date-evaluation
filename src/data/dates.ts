@@ -21,12 +21,12 @@ export const initialDates: DateEvaluation[] = [
   },
   {
     id: 'date-3',
-    date: 'Pending...',
-    displayDate: 'Aguardando data...',
+    date: '2025-09-14',
+    displayDate: '14 Set 2025',
     score: null,
     isEvaluated: false,
-    successMessage: 'Adorei nosso encontro e nossa conversa, ansioso para mais! ❤️',
-    celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif'
+    successMessage: 'Incrível como o melhor encontro é sempre o próximo ❤️',
+    celebrationGif: 'https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dm84eTYzeHM1MXZuMWV5Y2IyYTAyZHF1cWhtOWt4cGd5anFhcHJuZSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/fHMAxZODkH5xMKJGne/200.webp'
   }
   // Adicionar novos encontros aqui seguindo o mesmo padrão
   // {
