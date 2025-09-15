@@ -30,15 +30,9 @@ export function DateEvaluator({ currentDate, onScoreUpdate }: DateEvaluatorProps
 
   const handleScoreSubmit = (selectedScore: number) => {
     setTempScore(selectedScore);
-    
-    if (selectedScore >= 1 && selectedScore <= 9) {
-      setScoreError('Nota inválida! Tente novamente... 😉');
-      setShowSuccess(false);
-    } else if (selectedScore === 10) {
-      setScoreError('');
-      setShowSuccess(true);
-      onScoreUpdate(currentDate.id, selectedScore);
-    }
+    setScoreError('');
+    setShowSuccess(true);
+    onScoreUpdate(currentDate.id, selectedScore);
   };
 
   const resetEvaluation = () => {
