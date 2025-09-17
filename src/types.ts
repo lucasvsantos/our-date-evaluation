@@ -6,6 +6,7 @@ export interface DateEvaluation {
   isEvaluated: boolean;
   successMessage?: string;
   celebrationGif?: string;
+  tags?: string[]
 }
 
 export interface AppState {

@@ -17,12 +17,23 @@ export const initialDates: DateEvaluation[] = [
     score: 10,
     isEvaluated: true,
     successMessage: 'Adorei nosso encontro e nossa conversa, ansioso para mais! ❤️',
-    celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif'
+    celebrationGif: 'https://media.tenor.com/WYcP64486i8AAAAM/h2di-michael-shocked-happy.gif',
+    tags: ['moço, tira essa vela daqui', 'paul is dead', 'avril lavigne is dead', 'valet invasivo...']
   },
   {
     id: 'date-3',
     date: '2025-09-14',
     displayDate: '14 Set 2025',
+    score: 10,
+    isEvaluated: true,
+    successMessage: 'Incrível como o melhor encontro é sempre o próximo ❤️',
+    celebrationGif: 'https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dm84eTYzeHM1MXZuMWV5Y2IyYTAyZHF1cWhtOWt4cGd5anFhcHJuZSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/fHMAxZODkH5xMKJGne/200.webp',
+    tags: ['cárcere privado', 'ultra high', 'educação positiva']
+  },
+  {
+    id: 'date-4',
+    date: '2025-09-19',
+    displayDate: '19 Set 2025',
     score: null,
     isEvaluated: false,
     successMessage: 'Incrível como o melhor encontro é sempre o próximo ❤️',
