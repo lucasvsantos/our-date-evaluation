@@ -16,16 +16,21 @@ export function DateEvaluator({ currentDate, onScoreUpdate }: DateEvaluatorProps
   const isEvaluationAvailable = () => {
     if (currentDate.isEvaluated) return true;
     
-    const dateOfDate = new Date(currentDate.date);
+    // Cria as datas considerando o timezone brasileiro (GMT-3)
+    const dateOfDate = new Date(currentDate.date + 'T00:00:00-03:00');
     const today = new Date();
     const dayAfterDate = new Date(dateOfDate);
     dayAfterDate.setDate(dayAfterDate.getDate() + 1);
     
-    // Remove as horas para comparar apenas as datas
-    today.setHours(0, 0, 0, 0);
-    dayAfterDate.setHours(0, 0, 0, 0);
+    // Converte para o timezone brasileiro para comparação
+    const todayBrazil = new Date(today.toLocaleString("en-US", {timeZone: "America/Sao_Paulo"}));
+    const dayAfterBrazil = new Date(dayAfterDate.toLocaleString("en-US", {timeZone: "America/Sao_Paulo"}));
     
-    return today >= dayAfterDate;
+    // Remove as horas para comparar apenas as datas no timezone brasileiro
+    todayBrazil.setHours(0, 0, 0, 0);
+    dayAfterBrazil.setHours(0, 0, 0, 0);
+    
+    return todayBrazil >= dayAfterBrazil;
   };
 
   const handleScoreSubmit = (selectedScore: number) => {
