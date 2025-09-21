@@ -76,6 +76,21 @@ export function DateEvaluator({ currentDate, onScoreUpdate }: DateEvaluatorProps
               className="rounded-lg shadow-lg"
             />
           </div>
+          {currentDate.tags && currentDate.tags.length > 0 && (
+            <div className="mt-4 p-3 rounded-xl">
+              <h4 className="text-sm font-semibold text-green-800 mb-2">Momentos Especiais</h4>
+              <div className="flex flex-wrap gap-2 justify-center">
+                {currentDate.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full border border-green-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );

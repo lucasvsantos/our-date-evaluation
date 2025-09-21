@@ -36,8 +36,19 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '19 Set 2025',
     score: null,
     isEvaluated: false,
-    successMessage: 'Incrível como o melhor encontro é sempre o próximo ❤️',
-    celebrationGif: 'https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dm84eTYzeHM1MXZuMWV5Y2IyYTAyZHF1cWhtOWt4cGd5anFhcHJuZSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/fHMAxZODkH5xMKJGne/200.webp'
+    successMessage: 'Esse com certeza foi o melhor date da vida ❤️',
+    celebrationGif: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5wNGM0aXpteDg0bHBlZnIycmF2dXJnejA4NDBhM2ZicnFsMDl0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OJ0NYhdemsSoF4FCM8/giphy.gif',
+    tags: ['você acredita em mágica?']
+  },
+  {
+    id: 'date-5',
+    date: 'Aguardando data...',
+    displayDate: 'Aguardando data...',
+    score: null,
+    isEvaluated: false,
+    successMessage: '',
+    celebrationGif: '',
+    tags: ['você acredita em mágica?']
   }
   // Adicionar novos encontros aqui seguindo o mesmo padrão
   // {
