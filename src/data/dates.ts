@@ -34,8 +34,8 @@ export const initialDates: DateEvaluation[] = [
     id: 'date-4',
     date: '2025-09-19',
     displayDate: '19 Set 2025',
-    score: 10,
-    isEvaluated: true,
+    score: null,
+    isEvaluated: false,
     successMessage: 'Esse com certeza foi o melhor date da vida ❤️',
     celebrationGif: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5wNGM0aXpteDg0bHBlZnIycmF2dXJnejA4NDBhM2ZicnFsMDl0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OJ0NYhdemsSoF4FCM8/giphy.gif',
     tags: ['você acredita em mágica?']
