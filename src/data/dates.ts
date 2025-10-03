@@ -34,21 +34,41 @@ export const initialDates: DateEvaluation[] = [
     id: 'date-4',
     date: '2025-09-19',
     displayDate: '19 Set 2025',
-    score: null,
-    isEvaluated: false,
+    score: 10,
+    isEvaluated: true,
     successMessage: 'Esse com certeza foi o melhor date da vida ❤️',
     celebrationGif: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5wNGM0aXpteDg0bHBlZnIycmF2dXJnejA4NDBhM2ZicnFsMDl0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OJ0NYhdemsSoF4FCM8/giphy.gif',
     tags: ['você acredita em mágica?']
   },
   {
     id: 'date-5',
+    date: '2025-09-27',
+    displayDate: '27 Set 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: 'Acho incrível a forma como falamos de tudo, sobre tudo e com naturalidade ❤️',
+    celebrationGif: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTlseGVtZDZlNmpsNm1pY3JubWhjcXVidmJza25pZTFucHByeDA2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VMO6qeIbr7JRLnLTGw/giphy.gif',
+    tags: ['air hockey', '"...e a porta se trancou!']
+  },
+  {
+    id: 'date-6',
+    date: '2025-10-04',
+    displayDate: '04 Out 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: '',
+    celebrationGif: '',
+    tags: []
+  },
+  {
+    id: 'date-99',
     date: 'Aguardando data...',
     displayDate: 'Aguardando data...',
     score: null,
     isEvaluated: false,
     successMessage: '',
     celebrationGif: '',
-    tags: ['você acredita em mágica?']
+    tags: []
   }
   // Adicionar novos encontros aqui seguindo o mesmo padrão
   // {
