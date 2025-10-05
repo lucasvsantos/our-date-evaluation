@@ -56,9 +56,9 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '04 Out 2025',
     score: null,
     isEvaluated: false,
-    successMessage: '',
-    celebrationGif: '',
-    tags: []
+    successMessage: 'Um date mais surpreendente do que o outro ❤️',
+    celebrationGif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZDRqcTF6eXlkOGQwb3Fndm40dXV0NG84eHFiaWVodTRzcjNqYTQzNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2TCSSVEKML8NBogM8o/giphy.gif',
+    tags: ['tios perigosos']
   },
   {
     id: 'date-99',
