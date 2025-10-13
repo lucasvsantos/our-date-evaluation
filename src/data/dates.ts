@@ -45,7 +45,7 @@ export const initialDates: DateEvaluation[] = [
     date: '2025-09-27',
     displayDate: '27 Set 2025',
     score: 10,
-    isEvaluated: false,
+    isEvaluated: true,
     successMessage: 'Acho incrível a forma como falamos de tudo, sobre tudo e com naturalidade ❤️',
     celebrationGif: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTlseGVtZDZlNmpsNm1pY3JubWhjcXVidmJza25pZTFucHByeDA2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VMO6qeIbr7JRLnLTGw/giphy.gif',
     tags: ['air hockey', '"...e a porta se trancou!"']
@@ -72,7 +72,7 @@ export const initialDates: DateEvaluation[] = [
   },
   {
     id: 'date-99',
-    date: 'Aguardando data...',
+    date: 'Aguardando próximo date...',
     displayDate: 'Aguardando data...',
     score: null,
     isEvaluated: false,
