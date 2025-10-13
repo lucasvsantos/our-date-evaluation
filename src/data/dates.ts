@@ -44,21 +44,31 @@ export const initialDates: DateEvaluation[] = [
     id: 'date-5',
     date: '2025-09-27',
     displayDate: '27 Set 2025',
-    score: null,
+    score: 10,
     isEvaluated: false,
     successMessage: 'Acho incrível a forma como falamos de tudo, sobre tudo e com naturalidade ❤️',
     celebrationGif: 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTlseGVtZDZlNmpsNm1pY3JubWhjcXVidmJza25pZTFucHByeDA2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VMO6qeIbr7JRLnLTGw/giphy.gif',
-    tags: ['air hockey', '"...e a porta se trancou!']
+    tags: ['air hockey', '"...e a porta se trancou!"']
   },
   {
     id: 'date-6',
     date: '2025-10-04',
     displayDate: '04 Out 2025',
-    score: null,
-    isEvaluated: false,
+    score: 10,
+    isEvaluated: true,
     successMessage: 'Um date mais surpreendente do que o outro ❤️',
     celebrationGif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZDRqcTF6eXlkOGQwb3Fndm40dXV0NG84eHFiaWVodTRzcjNqYTQzNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2TCSSVEKML8NBogM8o/giphy.gif',
     tags: ['tios perigosos']
+  },
+  {
+    id: 'date-7',
+    date: '2025-10-10',
+    displayDate: '10 Out 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: 'Esse sim foi o melhor date de todos ❤️',
+    celebrationGif: 'https://giphy.com/gifs/theoffice-season-1-the-office-tv-4J8UawF6eSH1KL9l53',
+    tags: ['primeiro date oficial no cinema']
   },
   {
     id: 'date-99',
