@@ -67,7 +67,7 @@ export const initialDates: DateEvaluation[] = [
     score: null,
     isEvaluated: false,
     successMessage: 'Esse sim foi o melhor date de todos ❤️',
-    celebrationGif: 'https://giphy.com/gifs/theoffice-season-1-the-office-tv-4J8UawF6eSH1KL9l53',
+    celebrationGif: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnIwbmJ0cWt1ZHV6eGEyY2ozMHcwY2o1dWlwZWNlZ3lyMDI4emk2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4J8UawF6eSH1KL9l53/giphy.gif',
     tags: ['primeiro date oficial no cinema']
   },
   {
