@@ -64,8 +64,8 @@ export const initialDates: DateEvaluation[] = [
     id: 'date-7',
     date: '2025-10-10',
     displayDate: '10 Out 2025',
-    score: null,
-    isEvaluated: false,
+    score: 10,
+    isEvaluated: true,
     successMessage: 'Esse sim foi o melhor date de todos ❤️',
     celebrationGif: 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnIwbmJ0cWt1ZHV6eGEyY2ozMHcwY2o1dWlwZWNlZ3lyMDI4emk2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4J8UawF6eSH1KL9l53/giphy.gif',
     tags: ['primeiro date oficial no cinema']
