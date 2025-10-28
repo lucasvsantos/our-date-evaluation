@@ -71,6 +71,16 @@ export const initialDates: DateEvaluation[] = [
     tags: ['primeiro date oficial no cinema']
   },
   {
+    id: 'date-8',
+    date: '2025-10-23',
+    displayDate: '23 Out 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: '',
+    celebrationGif: '',
+    tags: ['primeiro date no teatro']
+  },
+  {
     id: 'date-99',
     date: 'Aguardando próximo date...',
     displayDate: 'Aguardando data...',
