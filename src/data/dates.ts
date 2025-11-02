@@ -76,8 +76,8 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '23 Out 2025',
     score: null,
     isEvaluated: false,
-    successMessage: '',
-    celebrationGif: '',
+    successMessage: 'Os comediantes foram engraçados, mas eu sou mais...',
+    celebrationGif: 'https://66.media.tumblr.com/abf5505bd5e3381e40fc0fcd42e98cd5/tumblr_mm87tstRxX1qjsyx0o1_500.gif',
     tags: ['primeiro date no teatro']
   },
   {
@@ -86,9 +86,19 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '01 Nov 2025',
     score: null,
     isEvaluated: false,
+    successMessage: 'Nosso date mais longo, eu amei ❤️',
+    celebrationGif: 'https://media1.popsugar-assets.com/files/thumbor/vIcqvKLC9Rt6VQbGX6PeTMqNvAM=/fit-in/500x282/top/filters:format_auto():upscale()/2013/03/10/3/192/1922283/33e61069d2ae9e45_url.gif',
+    tags: ['muitas voltas na paulista']
+  },
+  {
+    id: 'date-10',
+    date: '2025-11-05',
+    displayDate: '05 Nov 2025',
+    score: null,
+    isEvaluated: false,
     successMessage: '',
     celebrationGif: '',
-    tags: ['primeiro date no teatro']
+    tags: ['']
   },
   {
     id: 'date-99',
