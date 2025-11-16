@@ -111,7 +111,7 @@ export const initialDates: DateEvaluation[] = [
     tags: ['']
   },
   {
-    id: 'date-11',
+    id: 'date-12',
     date: '2025-11-20',
     displayDate: '20 Nov 2025',
     score: null,
@@ -121,7 +121,7 @@ export const initialDates: DateEvaluation[] = [
     tags: ['']
   },
   {
-    id: 'date-11',
+    id: 'date-13',
     date: '2025-11-23',
     displayDate: '23 Nov 2025',
     score: null,
