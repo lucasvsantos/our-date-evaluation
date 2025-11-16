@@ -96,12 +96,42 @@ export const initialDates: DateEvaluation[] = [
     displayDate: '05 Nov 2025',
     score: null,
     isEvaluated: false,
+    successMessage: '❤️❤️❤️❤️ O grande dia em que começamos a namorar, especificamente às 22h30 ❤️❤️❤️❤️',
+    celebrationGif: '',
+    tags: ['']
+  },
+  {
+    id: 'date-11',
+    date: '2025-11-14',
+    displayDate: '14 Nov 2025',
+    score: null,
+    isEvaluated: false,
     successMessage: '',
     celebrationGif: '',
     tags: ['']
   },
   {
-    id: 'date-99',
+    id: 'date-11',
+    date: '2025-11-20',
+    displayDate: '20 Nov 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: '',
+    celebrationGif: '',
+    tags: ['']
+  },
+  {
+    id: 'date-11',
+    date: '2025-11-23',
+    displayDate: '23 Nov 2025',
+    score: null,
+    isEvaluated: false,
+    successMessage: 'O dia em que fomos no festival',
+    celebrationGif: '',
+    tags: ['']
+  },
+  {
+    id: 'date-999',
     date: 'Aguardando próximo date...',
     displayDate: 'Aguardando data...',
     score: null,
