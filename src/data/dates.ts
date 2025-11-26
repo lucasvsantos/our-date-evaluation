@@ -122,8 +122,8 @@ export const initialDates: DateEvaluation[] = [
   },
   {
     id: 'date-13',
-    date: '2025-11-23',
-    displayDate: '23 Nov 2025',
+    date: '2025-11-22',
+    displayDate: '22 Nov 2025',
     score: null,
     isEvaluated: false,
     successMessage: 'O dia em que fomos no festival',
